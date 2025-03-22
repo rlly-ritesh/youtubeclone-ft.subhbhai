@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="left-section">
+            <i class="material-icons menu-icon">menu</i>
+            <img src="https://www.youtube.com/img/desktop/yt_1200.png" alt="YouTube Logo" class="youtube-logo">
+        </div>
+        <div class="middle-section">
+            <input type="text" placeholder="Search" class="search-bar">
+            <button class="search-button">
+                <i class="material-icons">search</i>
+            </button>
+            <button class="voice-search-button">
+                <i class="material-icons">mic</i>
+            </button>
+        </div>
+        <div class="right-section">
+            <i class="material-icons">video_call</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">account_circle</i>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content-area">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-item active">
+                <i class="material-icons">home</i>
+                <span>Home</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="material-icons">explore</i>
+                <span>Explore</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="material-icons">subscriptions</i>
+                <span>Subscriptions</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="material-icons">video_library</i>
+                <span>Library</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="material-icons">history</i>
+                <span>History</span>
+            </div>
+        </nav>
+
+        <!-- Video Grid -->
+        <main class="video-grid">
+            <!-- Video 1 -->
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img src="subham.jpg" alt="Video Thumbnail" class="thumbnail">
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/a/36/36" alt="Channel Avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3>Subham Bhai</h3>
+                            <p class="channel-name">Channel Name</p>
+                            <p class="video-stats">1.2M views • 3 months ago</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img src="subham.jpg" alt="Video Thumbnail" class="thumbnail">
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/b/36/36" alt="Channel Avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3>Subham Bhai</h3>
+                            <p class="channel-name">Cool Channel</p>
+                            <p class="video-stats">850K views • 2 weeks ago</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img src="subham.jpg" alt="Video Thumbnail" class="thumbnail">
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/c/36/36" alt="Channel Avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3>Subham Bhai</h3>
+                            <p class="channel-name">Tech Channel</p>
+                            <p class="video-stats">2M views • 1 month ago</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Video 4 -->
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img src="subham.jpg" alt="Video Thumbnail" class="thumbnail">
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/d/36/36" alt="Channel Avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3>Subham Bhai</h3>
+                            <p class="channel-name">Gaming Pro</p>
+                            <p class="video-stats">500K views • 5 days ago</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Video 5 -->
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img src="subham.jpg" alt="Video Thumbnail" class="thumbnail">
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/e/36/36" alt="Channel Avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3>Subham Bhai</h3>
+                            <p class="channel-name">Fact Channel</p>
+                            <p class="video-stats">750K views • 1 week ago</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Video 6 -->
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img src="subham.jpg" alt="Video Thumbnail" class="thumbnail">
+                    <div class="video-info">
+                        <img src="https://picsum.photos/seed/f/36/36" alt="Channel Avatar" class="channel-avatar">
+                        <div class="video-details">
+                            <h3>Subham Bhai</h3>
+                            <p class="channel-name">Music Channel</p>
+                            <p class="video-stats">1.5M views • 2 months ago</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
